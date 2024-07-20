@@ -1,0 +1,38 @@
+{
+  "name": "node_chat_app",
+  "version": "1.0.0",
+  "description": "Real-Time Chat Application with Node.js It allows users to securely send text messages, create chat groups, and engage in real-time conversations.",
+  "main": "app.js",
+  "scripts": {
+    "start": "set NODE_ENV=development&& node app.js",
+    "dev": "set NODE_ENV=development&& nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nithil-A/node_chat_app.git"
+  },
+  "keywords": [
+    "Chat_app",
+    "socket",
+    "node_chat_socket.io"
+  ],
+  "author": "Nithil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nithil-A/node_chat_app/issues"
+  },
+  "homepage": "https://github.com/Nithil-A/node_chat_app#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
